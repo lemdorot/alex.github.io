@@ -1213,6 +1213,7 @@ h6 {
 }
 
 .contacts {
+  margin-top: auto;
   background: #FBFBFB;
 }
 
@@ -1498,11 +1499,11 @@ textarea.form__input {
   }
 
   .footer__container {
-    padding-top: 5.5rem;
+    padding-top: 2.8125rem;
   }
 
   .footer__container {
-    padding-bottom: 5.5rem;
+    padding-bottom: 2.8125rem;
   }
 
   .main-section__title:not(:last-child) {
@@ -1965,27 +1966,27 @@ textarea.form__input {
     }
 }
 
-@supports (padding-top: clamp( 1.25rem , -0.2445054945rem  +  7.4725274725vw , 5.5rem )) {
+@supports (padding-top: clamp( 1.25rem , 0.7005494505rem  +  2.7472527473vw , 2.8125rem )) {
     .footer__container {
-      padding-top: clamp( 1.25rem , -0.2445054945rem  +  7.4725274725vw , 5.5rem );
+      padding-top: clamp( 1.25rem , 0.7005494505rem  +  2.7472527473vw , 2.8125rem );
     }
 }
 
-@supports not (padding-top: clamp( 1.25rem , -0.2445054945rem  +  7.4725274725vw , 5.5rem )) {
+@supports not (padding-top: clamp( 1.25rem , 0.7005494505rem  +  2.7472527473vw , 2.8125rem )) {
     .footer__container {
-      padding-top: calc(1.25rem + 4.25 * (100vw - 20rem) / 56.875);
+      padding-top: calc(1.25rem + 1.5625 * (100vw - 20rem) / 56.875);
     }
 }
 
-@supports (padding-bottom: clamp( 1.25rem , -0.2445054945rem  +  7.4725274725vw , 5.5rem )) {
+@supports (padding-bottom: clamp( 1.25rem , 0.7005494505rem  +  2.7472527473vw , 2.8125rem )) {
     .footer__container {
-      padding-bottom: clamp( 1.25rem , -0.2445054945rem  +  7.4725274725vw , 5.5rem );
+      padding-bottom: clamp( 1.25rem , 0.7005494505rem  +  2.7472527473vw , 2.8125rem );
     }
 }
 
-@supports not (padding-bottom: clamp( 1.25rem , -0.2445054945rem  +  7.4725274725vw , 5.5rem )) {
+@supports not (padding-bottom: clamp( 1.25rem , 0.7005494505rem  +  2.7472527473vw , 2.8125rem )) {
     .footer__container {
-      padding-bottom: calc(1.25rem + 4.25 * (100vw - 20rem) / 56.875);
+      padding-bottom: calc(1.25rem + 1.5625 * (100vw - 20rem) / 56.875);
     }
 }
 
